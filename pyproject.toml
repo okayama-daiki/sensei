@@ -1,0 +1,11 @@
+[project]
+name = "sensei"
+version = "0.1.0"
+description = "Our loverly professor by LangChain"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "langchain>=1.0.2",
+    "langchain-openai>=1.0.1",
+    "python-dotenv>=1.1.1",
+]
